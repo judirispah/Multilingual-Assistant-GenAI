@@ -1,0 +1,12 @@
+streamlit
+pipwin
+pyaudio
+gTTS
+google-generativeai
+python-dotenv
+SpeechRecognition
+langchain-groq
+langchain_core
+
+
+-e .
