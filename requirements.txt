@@ -7,6 +7,8 @@ python-dotenv
 SpeechRecognition
 langchain-groq
 langchain_core
+langchain
+langchain_community
 
 
 -e .
