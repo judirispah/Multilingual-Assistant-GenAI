@@ -24,23 +24,33 @@ To run this project locally, follow these steps:
 git clone <repository-url>
 cd <repository-folder>
 
+## Installation and Setup
+
+To get started with the Multilingual Voice AI Assistant, follow these steps:
+
 ### 2. Install the dependencies
 ```bash
 pip install -r requirements.txt
 
-### 3. Run the Streamlit app
+### 3. run the streamlit app
 ```bash
 streamlit run app.py
 
-
-### 2. Install the dependencies
-```bash
-
 ## How It Works
 
-1. **User Input**: Users can speak or type their queries in any supported language.
-2. **Processing**: The assistant processes the input using **Geema LLM** via the **Groq API** and generates an appropriate response.
-3. **Response**: The assistant replies both in **voice** and **text**, allowing the user to engage through either medium.
-4. **Memory**: The assistant stores the conversation history and can reference previous interactions for a more personalized experience.
+1. **User Input**: 
+   - Users can speak or type their queries in any supported language.
+   
+2. **Processing**: 
+   - The assistant processes the input using **Geema LLM** via the **Groq API** and generates an appropriate response.
+   
+3. **Response**: 
+   - The assistant replies in both **voice** and **text**, allowing the user to engage through either medium.
+   
+4. **Memory**: 
+   - The assistant stores the conversation history and can reference previous interactions for a more personalized experience.
+
+
+
 
 
