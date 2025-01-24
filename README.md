@@ -13,7 +13,7 @@ This is a **multilingual voice AI assistant** that can respond to user input in 
 - **Streamlit**: A framework to build the interactive web interface for the voice AI assistant.
 - **Langchain Expression Language**: Used for handling multiple languages and enabling multilingual interactions.
 - **Gemma LLM from Groq API**: A large language model used for processing and generating responses in different languages.
-- **EC2**: Deployed on Amazon EC2 for scalability and cloud hosting.
+
 
 ## Installation and Setup
 
