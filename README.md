@@ -13,7 +13,19 @@ This is a **multilingual voice AI assistant** that can respond to user input in 
 - **Streamlit**: A framework to build the interactive web interface for the voice AI assistant.
 - **Langchain Expression Language**: Used for handling multiple languages and enabling multilingual interactions.
 - **Gemma LLM from Groq API**: A large language model used for processing and generating responses in different languages.
+## How It Works
 
+1. **User Input**: 
+   - Users can speak or type their queries in any supported language.
+   
+2. **Processing**: 
+   - The assistant processes the input using **Gemma LLM** via the **Groq API** and generates an appropriate response.
+   
+3. **Response**: 
+   - The assistant replies in both **voice** and **text**, allowing the user to engage through either medium.
+   
+4. **Memory**: 
+   - The assistant stores the conversation history and can reference previous interactions for a more personalized experience.
 
 ## Installation and Setup
 
@@ -29,26 +41,14 @@ cd <repository-folder>
 To get started with the Multilingual Voice AI Assistant, follow these steps:
 
 ### 2. Install the dependencies
-```bash
+
 pip install -r requirements.txt
 
 ### 3. run the streamlit app
-```bash
+
 streamlit run app.py
 
-## How It Works
 
-1. **User Input**: 
-   - Users can speak or type their queries in any supported language.
-   
-2. **Processing**: 
-   - The assistant processes the input using **Geema LLM** via the **Groq API** and generates an appropriate response.
-   
-3. **Response**: 
-   - The assistant replies in both **voice** and **text**, allowing the user to engage through either medium.
-   
-4. **Memory**: 
-   - The assistant stores the conversation history and can reference previous interactions for a more personalized experience.
 
 
 
